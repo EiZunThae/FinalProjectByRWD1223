@@ -1,0 +1,31 @@
+.profile-border {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 3px solid rgb(189, 189, 9);
+    display: inline-block;
+}
+
+.user-name {
+    display: inline-block;
+    transform: translateY(-13px);
+}
+
+.fn-sans {
+    font-family: sans;
+}
+
+.fnw-600 {
+    font-weight: 600;
+}
+
+.fns-1 {
+    font-size: 0.9rem;
+}
+
+.user-container {
+    max-width: 900px;
+    margin: 8rem auto;
+    margin-bottom: 0;
+}

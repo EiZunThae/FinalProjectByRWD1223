@@ -1,0 +1,314 @@
+                                                            .banner {
+                                                            background-color: rgb(221, 165, 196);
+                                                            text-decoration: none;
+                                                            box-sizing: border-box;
+                                                            text-align: center;
+                                                            color: rgb(225, 233, 235);
+                                                            font-size: 15.0px;
+                                                            line-height: 20.0px;
+                                                        }
+                                                        
+                                                        .nav {
+                                                            padding-left: 130px;
+                                                        }
+                                                        
+                                                        body {
+                                                            color: #1a1a1a;
+                                                            font-family: "Open Sans", Helvetica, sans-serif;
+                                                            font-size: 15px;
+                                                            line-height: 1.6em;
+                                                            text-align: center;
+                                                            background: #fff;
+                                                            background: -webkit-linear-gradient(to right, #f3e8eb, #dabbce);
+                                                            background: linear-gradient(to right, #f5ebed, #dabbce);
+                                                        }
+                                                        
+                                                        * {
+                                                            box-sizing: border-box;
+                                                        }
+                                                        
+                                                        body {
+                                                            margin: 0;
+                                                            width: 90%;
+                                                            background-color: #dfc2e2;
+                                                            color: #ec96f1;
+                                                            margin: auto;
+                                                        }
+                                                        
+                                                        .header {
+                                                            background-color: #e7a2d5;
+                                                            text-align: center;
+                                                            padding: 20px;
+                                                            color: #efd8df;
+                                                        }
+                                                        
+                                                        .nav-bar {
+                                                            background-color: #d3acda;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .nav-bar a {
+                                                            display: block;
+                                                            color: #e89af1;
+                                                            text-align: center;
+                                                            padding: 14px 16px;
+                                                            float: left;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .nav-bar a:hover {
+                                                            background-color: white;
+                                                            color: rgb(175, 221, 175);
+                                                        }
+                                                        
+                                                        .nav-bar a {
+                                                            color: #651172;
+                                                        }
+                                                        
+                                                        .column {
+                                                            width: 25%;
+                                                            float: left;
+                                                            padding: 10px;
+                                                        }
+                                                        /*.row::after{
+    content: "";
+    display: 
+}*/
+                                                        
+                                                        @media screen and (max-width: 800px) {
+                                                            .column {
+                                                                width: 100%;
+                                                            }
+                                                        }
+                                                        
+                                                        h2 {
+                                                            color: #ee5886;
+                                                        }
+                                                        
+                                                        p {
+                                                            color: #ee5886;
+                                                        }
+                                                        
+                                                        img {
+                                                            width: 80%;
+                                                            height: 250px;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            width: 50%;
+                                                            height: 70%;
+                                                            margin: 10%;
+                                                            padding-left: 100px;
+                                                        }
+                                                        
+                                                        .login {
+                                                            text-align: right;
+                                                        }
+                                                        
+                                                        .Log {
+                                                            padding-left: 150px;
+                                                        }
+                                                        /*
+dropdown menu
+*/
+                                                        
+                                                        .dropdown .dropbtn {
+                                                            display: block;
+                                                            width: 100%;
+                                                            text-align: left;
+                                                        }
+                                                        
+                                                        .dropdown:hover .dropdown-content {
+                                                            display: block;
+                                                        }
+                                                        
+                                                        .dropdown-content a:hover {
+                                                            background-color: rgb(34, 32, 32);
+                                                            color: rgb(221, 172, 172);
+                                                        }
+                                                        
+                                                        .dropdown-content a {
+                                                            float: none;
+                                                            color: rgb(235, 28, 28);
+                                                            padding: 12px 16px;
+                                                            text-decoration: none;
+                                                            display: block;
+                                                            text-align: left;
+                                                        }
+                                                        
+                                                        .dropdown-content {
+                                                            display: none;
+                                                            position: absolute;
+                                                            background-color: #8a4444;
+                                                            min-width: 160px;
+                                                            box-shadow: 0px 8px 16px 0px rgba(131, 121, 121, 0.2);
+                                                            z-index: 1;
+                                                        }
+                                                        
+                                                        .dropdown {
+                                                            float: left;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .dropdown .dropbtn {
+                                                            font-size: 17px;
+                                                            border: none;
+                                                            outline: none;
+                                                            color: rgb(20, 19, 19);
+                                                            padding: 14px 16px;
+                                                            background-color: inherit;
+                                                            font-family: inherit;
+                                                            margin: 0;
+                                                        }
+                                                        /*get social*/
+                                                        
+                                                        #footer3.col-md-3 col-sm-4 col-xs-12 {
+                                                            .col-md-3 {
+                                                                width: 25%;
+                                                            }
+                                                            .col-md-1,
+                                                            .col-md-10,
+                                                            .col-md-11,
+                                                            .col-md-12,
+                                                            .col-md-2,
+                                                            .col-md-3,
+                                                            .col-md-4,
+                                                            .col-md-5,
+                                                            .col-md-6,
+                                                            .col-md-7,
+                                                            .col-md-8,
+                                                            .col-md-9 {
+                                                                float: left;
+                                                            }
+                                                            .col-sm-4 {
+                                                                width: 33.33333333%;
+                                                            }
+                                                            .col-sm-1,
+                                                            .col-sm-10,
+                                                            .col-sm-11,
+                                                            .col-sm-12,
+                                                            .col-sm-2,
+                                                            .col-sm-3,
+                                                            .col-sm-4,
+                                                            .col-sm-5,
+                                                            .col-sm-6,
+                                                            .col-sm-7,
+                                                            .col-sm-8,
+                                                            .col-sm-9 {
+                                                                float: left;
+                                                            }
+                                                            .col-xs-12 {
+                                                                width: 100%;
+                                                            }
+                                                            .col-xs-1,
+                                                            .col-xs-10,
+                                                            .col-xs-11,
+                                                            .col-xs-12,
+                                                            .col-xs-2,
+                                                            .col-xs-3,
+                                                            .col-xs-4,
+                                                            .col-xs-5,
+                                                            .col-xs-6,
+                                                            .col-xs-7,
+                                                            .col-xs-8,
+                                                            .col-xs-9 {
+                                                                float: left;
+                                                            }
+                                                            .col-lg-1,
+                                                            .col-lg-10,
+                                                            .col-lg-11,
+                                                            .col-lg-12,
+                                                            .col-lg-2,
+                                                            .col-lg-3,
+                                                            .col-lg-4,
+                                                            .col-lg-5,
+                                                            .col-lg-6,
+                                                            .col-lg-7,
+                                                            .col-lg-8,
+                                                            .col-lg-9,
+                                                            .col-md-1,
+                                                            .col-md-10,
+                                                            .col-md-11,
+                                                            .col-md-12,
+                                                            .col-md-2,
+                                                            .col-md-3,
+                                                            .col-md-4,
+                                                            .col-md-5,
+                                                            .col-md-6,
+                                                            .col-md-7,
+                                                            .col-md-8,
+                                                            .col-md-9,
+                                                            .col-sm-1,
+                                                            .col-sm-10,
+                                                            .col-sm-11,
+                                                            .col-sm-12,
+                                                            .col-sm-2,
+                                                            .col-sm-3,
+                                                            .col-sm-4,
+                                                            .col-sm-5,
+                                                            .col-sm-6,
+                                                            .col-sm-7,
+                                                            .col-sm-8,
+                                                            .col-sm-9,
+                                                            .col-xs-1,
+                                                            .col-xs-10,
+                                                            .col-xs-11,
+                                                            .col-xs-12,
+                                                            .col-xs-2,
+                                                            .col-xs-3,
+                                                            .col-xs-4,
+                                                            .col-xs-5,
+                                                            .col-xs-6,
+                                                            .col-xs-7,
+                                                            .col-xs-8,
+                                                            .col-xs-9 {
+                                                                position: relative;
+                                                                min-height: 1px;
+                                                                padding-right: 15px;
+                                                                padding-left: 15px;
+                                                            }
+                                                            * {
+                                                                -webkit-box-sizing: border-box;
+                                                                -moz-box-sizing: border-box;
+                                                                box-sizing: border-box;
+                                                            }
+                                                            .footer-wrapper {
+                                                                color: #555;
+                                                                line-height: 1.8em;
+                                                                letter-spacing: ;
+                                                            }
+                                                            body,
+                                                            caption,
+                                                            th,
+                                                            td,
+                                                            input,
+                                                            textarea,
+                                                            select,
+                                                            option,
+                                                            legend,
+                                                            fieldset {
+                                                                font-family: "Roboto", Arial, sans-serif;
+                                                            }
+                                                            body {
+                                                                font-size: 12px;
+                                                                font-weight: 400;
+                                                                color: #333;
+                                                                letter-spacing: .05em;
+                                                            }
+                                                            /*
+footer message
+*/
+                                                            #footer-messages {
+                                                                border-top: 1px solid #c9a998;
+                                                                padding-top: 15px;
+                                                            }
+                                                            * {
+                                                                -webkit-box-sizing: border-box;
+                                                            }
+                                                            .footer-wrapper {
+                                                                color: #555;
+                                                                line-height: 1.8em;
+                                                            }
+                                                            body {
+                                                                font-family: "Roboto", Arial, sans-serif;
+                                                            }

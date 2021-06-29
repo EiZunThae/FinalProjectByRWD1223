@@ -6,7 +6,7 @@ Final Project RWD1223 by Ei Zun Thae
 ```
 ## Loginform Email and Password
 
-##### Email
+##### userName
 
 ```sh
 hana123@gmail.com

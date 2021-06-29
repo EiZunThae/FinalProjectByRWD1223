@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header class="header-close" id="hearder-element">
+        <div class="banner">
+
+            <b>THIS WEEKEND ONLY: Get 20% off ALL dresses!</b><br> Use code
+            <b>DRESS20</b> at checkout |
+            <u>Shop now</u>
+            <span class="promoIndex" hidden="">0</span></a>
+        </div>
+
+
+        <div class="nav-bar">
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Image
+          <i class="fa fa-caret-down"></i>
+        </button>
+                    <div class="dropdown-content">
+                        <a href="summer_dress.html">Summer Dresses</a>
+                        <a href="wedding_guest.html">Wedding_guest</a>
+                        <a href="pink_dress.html">Pink dresses</a>
+                    </div>
+                </div>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div>
+                <a href="home.html" class="none">
+                    <img src="logo.png" alt="logo" class="logo">
+                </a>
+            </div>
+            <div class="Log">
+                <a href="login.html" class="login">
+            Login
+        </a>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                All
+                <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li>Options</li>
+                        <li><a href="wedding_guest.html">New in</a></li>
+                        <li><a href="pink_dress.html">Dress</a></li>
+                        <a href="login.html" class="fn-sans fns-1 link-none" id="login-btn" title="login">Login</a
+      >
+      <a
+        href="./admin.html"
+        class="fn-sans fns-1 link-none user"
+        title="profile"
+        id="profile-btn"
+      >
+        <i class="fa fa-user"></i>
+        <span class="d-none">Profile</span>
+      </a>
+                        <a href="login.html" class="fns-1 fn-sans d-none link-none logout" id="logout-btn" title="Logout">
+                            <i class="fa fa-sign-out"></i>
+                            <span class="d-none">Logout</span>
+                        </a>
+                        <ul class="nav-link-other fn-sans fns-1">
+                            <li class="nav-link-other-list">
+                                <a href="about.html" class="link-none">About LOVET</a>
+                            </li>
+                            <li class="nav-link-other-list">
+                                <a href="#" class="link-none">Help / FAQ</a>
+                            </li>
+                            <li class="nav-link-other-list">
+                                <a href="contact.html" class="none">Contact us</a>
+                            </li>
+                            <li class="nav-link-other-list">
+                                <a href="https://en.wikipedia.org/wiki/Terms_of_service" class="none">Terms of Service</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <svg x="0px" y="0px" width="100%" height="10px">
+        <line fill="none" stroke="rgb(194, 194, 194)" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3" x1="0%" y1="5" x2="100%" y2="5"></line>
+      </svg>
+    <footer>
+        <div id="footer2" class="col-md-3 col-sm-4 col-xs-12">
+            <div class="region region-footer2">
+                <div class="#">
+                    <h2 class="title">Categories</h2>
+                    <ul class="#">
+                        <li class="#"><a href="pink_dress.html" title="New In" id="#" class="#">New In</a></li>
+
+                        <li class="l#"><a href="summer_dress.html" title="Dresses" id="#" class="#">Summer Dresses</a></li>
+                        <li class="#"><a href="wedding_guest.html" title="Dresses" id="#" class="#">Wedding_Guest Dresses</a></li>
+                        <li class="#"><a href="pink_dress.html" title="Dresses" id="#" class="#">Pink Dresses</a></li>
+                        <li class="l#"><a href="home.html" title="Lovet Denim" id="#" class="#">Lovet Denim</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- /.block -->
+        </div>
+        <!-- /.region -->
+        </div>
+
+        <div id="footer3" class="col-md-3 col-sm-4 col-xs-12">
+            <h2 class="title">Get Social</h2>
+            <div class="social-buttons social-buttons-with-text" id="social-button-facebook"><a href="https://www.facebook.com/shoplovet/" target="_blank"><i class="fa fa-facebook">
+        </i> Facebook</a></div>
+            <div class="social-buttons social-buttons-with-text" id="social-button-instagram"><a href="https://www.instagram.com/shoplovet/" target="_blank"><i class="fa fa-instagram">
+        </i> Instagram</a></div>
+        </div>
+        <div id="footer-messages">
+            <div class="container">
+                <div class="row">
+                    <div id="copyright" class="col-xs-12">
+                        © Copyright LOVET (S) Pte Ltd. 2021. All Rights Reserved. </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="JS/sign_up.js"></script>
+    <script type="module" src="JS/admin.js"></script>
+</body>
+
+</html>
